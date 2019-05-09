@@ -341,7 +341,6 @@ body {
   .nav-menu {
     padding-top: 30px;
     padding-bottom: 30px;
-    align-items:flex-start;
   }
   .nav-link {
     display: flex;
@@ -358,4 +357,8 @@ body {
   .img-fluid {
   height:110px;
 }
+  .navigation-container{
+    display:flex;
+    align-items:flex-start;
+  }
 }
