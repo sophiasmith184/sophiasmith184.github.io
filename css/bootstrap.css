@@ -1,12 +1,3 @@
-html, 
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-}
-
 .navigation-container {
   display: flex;
   height: 90px;
@@ -182,6 +173,15 @@ footer {
   align-items: center;
 }
 
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
 .h3.cc-header {
   color: #fff;
 }
@@ -295,6 +295,8 @@ footer {
   .container-facts {
     display:flex; 
     flex-direction:column;
+    align-items:center;
+    justify-content:center;
     margin-left:100px;
   }
   .question {
@@ -336,6 +338,8 @@ footer {
   .nav-menu {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:-5px;
+    padding-left:-5px;
   }
   .nav-link {
     display: flex;
