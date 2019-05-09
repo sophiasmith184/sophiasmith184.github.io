@@ -221,8 +221,7 @@ footer {
     height: 60px;
   }
     .navigation-button {
-    width: 75%;
-    margin: 20px 30px;
+    display:none;
   }
   .header {
     height: 100vh;
@@ -329,15 +328,18 @@ footer {
   .nav-menu {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .nav-link {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
   }
   .towrap {
     display:flex;
     flex-direction:column;
+    justify-content:center;
     align-items:center;
   }
 }
